@@ -2,3 +2,6 @@ helloworld
 *.o
 *.orig
 *~
+.idea
+__pycache__
+*.pyc
