@@ -17,5 +17,5 @@ class CommunicationBear(LocalBear):
             type=type(user_input)))
 
         return [Result(message="A hello world result.",
-                       origin=self.__class__.__name__,
+                       origin=self,
                        file=filename)]
