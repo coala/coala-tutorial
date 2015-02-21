@@ -3,10 +3,10 @@ from coalib.results.Result import Result
 
 
 class CommunicationBear(LocalBear):
-    def run_bear(self,
-                 filename,
-                 file,
-                 user_input: str):
+    def run(self,
+            filename,
+            file,
+            user_input: str):
         """
         Communicates with the user.
 
