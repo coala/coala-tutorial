@@ -5,4 +5,4 @@ class HelloWorldBear(LocalBear):
     def run(self,
             filename,
             file):
-        self.debug_msg("Hello World! Checking file", filename, ".")
+        self.debug("Hello World! Checking file", filename, ".")

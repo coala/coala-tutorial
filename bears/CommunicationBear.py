@@ -12,7 +12,7 @@ class CommunicationBear(LocalBear):
 
         :param user_input: Arbitrary user input.
         """
-        self.debug_msg("Got '{ui}' as user input of type {type}.".format(
+        self.debug("Got '{ui}' as user input of type {type}.".format(
             ui=user_input,
             type=type(user_input)))
 
