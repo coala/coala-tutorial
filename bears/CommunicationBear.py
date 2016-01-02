@@ -16,6 +16,6 @@ class CommunicationBear(LocalBear):
             ui=user_input,
             type=type(user_input)))
 
-        return [Result(message="A hello world result.",
-                       origin=self,
-                       file=filename)]
+        return [Result.from_values(message="A hello world result.",
+                                   origin=self,
+                                   file=filename)]
