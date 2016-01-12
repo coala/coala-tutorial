@@ -3,6 +3,7 @@ from coalib.results.Result import Result
 
 
 class CommunicationBear(LocalBear):
+
     def run(self,
             filename,
             file,
