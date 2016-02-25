@@ -1,8 +1,7 @@
 #include <stdio.h> 
 
 int main(void) {
-    // TODO: Let's print something more original here.
-    printf("Hello World!\n");
-    
+    printf("Welcome to coala. Keep following the tutorial, you are doing a great job so far !\n");
+
     return 0;
 }
