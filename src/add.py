@@ -1,6 +1,6 @@
 
 """
-This is a simple library that provide a function that can add numbers.
+This is a simple library that provides a function that can add numbers.
 
 Cheers!
 """
