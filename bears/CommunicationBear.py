@@ -1,6 +1,6 @@
-from coalib.bears.LocalBear import LocalBear
-from coalib.results.Result import Result
+import logging
 
+from coalib.bears.LocalBear import LocalBear
 
 class CommunicationBear(LocalBear):
 
@@ -13,10 +13,9 @@ class CommunicationBear(LocalBear):
 
         :param user_input: Arbitrary user input.
         """
-        self.debug("Got '{ui}' as user input of type {type}.".format(
+        logging.debug("Got '{ui}' as user input of type {type}.".format(
             ui=user_input,
             type=type(user_input)))
 
-        return [Result.from_values(message="A hello world result.",
-                                   origin=self,
-                                   file=filename)]
+        yield self.new_result(message="A hello world result.",
+                              file=filename)
